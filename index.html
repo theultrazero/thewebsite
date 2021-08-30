@@ -19,80 +19,126 @@ p{
   font-size: 20px;
   margin-bottom: 50px;
 }
+
+.audio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center 
+}
+
+.topnav {
+  background-color: #b2c2bf;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #3b3a30;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #3b3a30;
+  color: white;
+}
 </style>
-    <div class="header">
-  	<h1>The Ultra Zero</h1>
-    </div> 
-    <body style="background-color:#eaece5">
-	    <p> És la tercera vegada que el Cau Ferrat es reuneix a prop del
-	    mar; la tercera vegada que, fugint del soroll de la ciutat, venim a
-	    somniar al peu d'aquest platja hermosa, a sentir-nos bressar al
-	    compàs de les onades, a prendre aigües de poesia malalts que estem
-	    del mal de prosa que avui corre en la nostra terra.</p>
 
-	    <p> Venim aquí fugint de la ciutat, per trobar-nos tots junts i
-	    junts cantar lo que ens surti del fons del sentiment, per treure'ns
-	    el fred que corre per les venes de tothom aixoplugant-nos sota la
-	    bandera de l'art; per banyar-nos i embriagar-nos de sol, de sol i
-	    llum que ens assequi per un moment la tristesa de la boira. Venim
-	    perquè necessitem espolsar-nos de sobre tanta farsa egoista, tanta
-	    sensatesa fingida, tanta farda de sentit comú, tanta serietat
-	    forçada o riure estúpid com ha imposat el menestral enriquit per una
-	    banda i per altra la democràcia, a aquesta terra nostra que, per por
-	    d'ésser borja, se'ns ha tornat ensopida.</p>
+<div class="header">
+	<h1>The Ultra Zero</h1>
+</div> 
+<body style="background-color:#eaece5">
+	<div class="topnav">
+		<a class="active" href="#home">Home</a>
+		<a href="#news">News</a>
+		<a href="#contact">Contact</a>
+		<a href="#about">About</a>
+	</div> 
+	<div class="audio-container">
+		<audio controls>  
+		<source src="song1.m4a" type="audio/mp4">
+		Your browser does not support the audio element.
+		</audio>
+	<div>
+	<p> És la tercera vegada que el Cau Ferrat es reuneix a prop del
+	mar; la tercera vegada que, fugint del soroll de la ciutat, venim a
+	somniar al peu d'aquest platja hermosa, a sentir-nos bressar al
+	compàs de les onades, a prendre aigües de poesia malalts que estem
+	del mal de prosa que avui corre en la nostra terra.</p>
+
+	<p> Venim aquí fugint de la ciutat, per trobar-nos tots junts i
+	junts cantar lo que ens surti del fons del sentiment, per treure'ns
+	el fred que corre per les venes de tothom aixoplugant-nos sota la
+	bandera de l'art; per banyar-nos i embriagar-nos de sol, de sol i
+	llum que ens assequi per un moment la tristesa de la boira. Venim
+	perquè necessitem espolsar-nos de sobre tanta farsa egoista, tanta
+	sensatesa fingida, tanta farda de sentit comú, tanta serietat
+	forçada o riure estúpid com ha imposat el menestral enriquit per una
+	banda i per altra la democràcia, a aquesta terra nostra que, per por
+	d'ésser borja, se'ns ha tornat ensopida.</p>
 	   
-	    <p>Pobre poesia i pobre art, amb aquests homes! I, pobre de tot lo
-	    que sigui fill d'una fe i d'un entusiasme! Bé saben vosaltres els
-	    que canteu pel sol goig de treure-us de l'anima llàgrimes i rialles;
-	    els que sabe què vol dir l¡intima sensació de sentir-les passar
-	    tremoloses per la ploma; els que conteu amb tots els colors les
-	    embriagueses dels sol i els velats misteris de l'ombra; els que
-	    veieu els mitjos tons dels dolors, els matisos més delicats de
-	    l'amor i sentiu el frec d'unes ales pesigollant per volar; bé sabeu
-	    què volen dir per als pobres materialestes aquestes ansies
-	    misterioses, com les desprecien, com se'n riuen, com les rebaixen,
-	    incapaços de comprendre-les. Ells no són, no, ni poden ser,
-	    modernistes. Ells estan satisfets del mon que veuen i no senten
-	    desitjos de canviar ni de provar de millorar-lo; creuen en el
-	    present perquè hi viuen i en viuen, i el pervindre els espanta. No
-	    volen que les idees se renovin; no volen que el passat, aquell
-	    passat de poetes i artistes, serveixi de xurriaca al presend i de
-	    fe en lo que vindrà; no són com el gran Greco, el gran leonard, el
-	    Giotto, el Boticelli i altres sants que besaven la tomba de llurs
-	    avis i miraven cap a lluny: són homes cecs, porucs i mandres
-	    d'idees; curts de somnits; rellotges que ni atrassen ni avancen,
-	    incapaços de sentir les tristeses del la posta ni la roenta alegria
-	    de l'aurora que despunta i s'aixeca majestuosa.</p>
+	<p>Pobre poesia i pobre art, amb aquests homes! I, pobre de tot lo
+	que sigui fill d'una fe i d'un entusiasme! Bé saben vosaltres els
+	que canteu pel sol goig de treure-us de l'anima llàgrimes i rialles;
+	els que sabe què vol dir l¡intima sensació de sentir-les passar
+	tremoloses per la ploma; els que conteu amb tots els colors les
+	embriagueses dels sol i els velats misteris de l'ombra; els que
+	veieu els mitjos tons dels dolors, els matisos més delicats de
+	l'amor i sentiu el frec d'unes ales pesigollant per volar; bé sabeu
+	què volen dir per als pobres materialestes aquestes ansies
+	misterioses, com les desprecien, com se'n riuen, com les rebaixen,
+	incapaços de comprendre-les. Ells no són, no, ni poden ser,
+	modernistes. Ells estan satisfets del mon que veuen i no senten
+	desitjos de canviar ni de provar de millorar-lo; creuen en el
+	present perquè hi viuen i en viuen, i el pervindre els espanta. No
+	volen que les idees se renovin; no volen que el passat, aquell
+	passat de poetes i artistes, serveixi de xurriaca al presend i de
+	fe en lo que vindrà; no són com el gran Greco, el gran leonard, el
+	Giotto, el Boticelli i altres sants que besaven la tomba de llurs
+	avis i miraven cap a lluny: són homes cecs, porucs i mandres
+	d'idees; curts de somnits; rellotges que ni atrassen ni avancen,
+	incapaços de sentir les tristeses del la posta ni la roenta alegria
+	de l'aurora que despunta i s'aixeca majestuosa.</p>
 
-	    <p>I voldríem al mateix temps que tots vosaltres, els que porteu
-	    idees al cap i sentiu batre-us el cor, deixèssiu de somniar baix,
-	    que alcàssiu la veu fins ara monologada o ofegada per ronc de les
-	    multituds i diguèssiu, cridant fort, al nostre poble, quee el regne
-	    de l'egoisme ha de rodolar per terra; que no es viu solament
-	    alimentant el pobre cos; que la religió de l'art fa falta a pobres i
-	    a rics; que el poble que no estima els seus poetes ha de viure sense
-	    cancçons ni colors, cego d'ànima i de vista; que el que passa per la
-	    terra sense adorar la bellesa no és digne ni té dret a rebre llum
-	    del sol, a sentir els petons de primavera, a gaudir del insomnis de
-	    l'amor, a embrutar amb bava de bèstia innoble les hermosures
-	    esplèndides de la gran Naturalesa.</p>
+	<p>I voldríem al mateix temps que tots vosaltres, els que porteu
+	idees al cap i sentiu batre-us el cor, deixèssiu de somniar baix,
+	que alcàssiu la veu fins ara monologada o ofegada per ronc de les
+	multituds i diguèssiu, cridant fort, al nostre poble, quee el regne
+	de l'egoisme ha de rodolar per terra; que no es viu solament
+	alimentant el pobre cos; que la religió de l'art fa falta a pobres i
+	a rics; que el poble que no estima els seus poetes ha de viure sense
+	cancçons ni colors, cego d'ànima i de vista; que el que passa per la
+	terra sense adorar la bellesa no és digne ni té dret a rebre llum
+	del sol, a sentir els petons de primavera, a gaudir del insomnis de
+	l'amor, a embrutar amb bava de bèstia innoble les hermosures
+	esplèndides de la gran Naturalesa.</p>
 
-	    <p> Això voldríem, oh poetes!, i per lograr-ho, aquí davant dels
-	    nostres ulls tenim dos grans exemples a seguir: les ones per un
-	    costat buidant els més durs penyals i per l'altre la constància de
-	    l'home doblegant i dominant el ferro verge. Flexibles com l'aigua
-	    amorosa podreu abatre els cors de roca; valents com els manyans de
-	    l'edat Mitja podreu doblegar les voluntats de la matèria. Treballem
-	    a cops de petons i de martells; i en tant aquí tots junts, tots dels
-	    nostros sense por d'orelles forasteres a l'art i a la poesia, podrem
-	    esbravar-nos cridant lo que no gosem dir moltes vegades rodejats del
-	    gran raman; que volem ser poetes i que despreciem i planvem els que
-	    no sentin la poesia; que estimem més un Leonardo da Vinci on un
-	    Dante que una província o un poble; que preferim ser simbolistes, i
-	    desequilibrats, fins bojos i decadents, a decaiguts i mansos; que el
-	    sentit com ens ofega; quye, de prudència, a la nostra terra en
-	    sobra; que no hi fa res passar per Don Quixots allà on hi ha tants
-	    Sancho-Panzas que pasturen, ni llegir llibres d'encantats allà on no
-	    se'n llegeixen de cap mena.
+	<p> Això voldríem, oh poetes!, i per lograr-ho, aquí davant dels
+	nostres ulls tenim dos grans exemples a seguir: les ones per un
+	costat buidant els més durs penyals i per l'altre la constància de
+	l'home doblegant i dominant el ferro verge. Flexibles com l'aigua
+	amorosa podreu abatre els cors de roca; valents com els manyans de
+	l'edat Mitja podreu doblegar les voluntats de la matèria. Treballem
+	a cops de petons i de martells; i en tant aquí tots junts, tots dels
+	nostros sense por d'orelles forasteres a l'art i a la poesia, podrem
+	esbravar-nos cridant lo que no gosem dir moltes vegades rodejats del
+	gran raman; que volem ser poetes i que despreciem i planvem els que
+	no sentin la poesia; que estimem més un Leonardo da Vinci on un
+	Dante que una província o un poble; que preferim ser simbolistes, i
+	desequilibrats, fins bojos i decadents, a decaiguts i mansos; que el
+	sentit com ens ofega; quye, de prudència, a la nostra terra en
+	sobra; que no hi fa res passar per Don Quixots allà on hi ha tants
+	Sancho-Panzas que pasturen, ni llegir llibres d'encantats allà on no
+	se'n llegeixen de cap mena.
     </body>
 </html>
